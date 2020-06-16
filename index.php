@@ -1,12 +1,4 @@
-<html>
- <head>
-  <title>PHP Test</title>
- </head>
- <body>
- <?php 
+<?php 
   $str1= gethostname();
-  $str2= php_uname('n');
-  echo '<p>my Hello World,' . $str1 . ' ' . $str2 . '</p>';
-  ?> 
-  </body>
-</html>
+  echo 'my Hello World,111111111,' . $str1 ;
+?> 
